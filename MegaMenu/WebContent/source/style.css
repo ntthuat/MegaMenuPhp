@@ -1,0 +1,15 @@
+.dropdown-menu{
+	/* position: relative; */
+    -webkit-animation-name: example; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 0.5s; /* Chrome, Safari, Opera */
+    animation-name: dropdown-menu;
+    animation-duration: 0.5s;
+}
+@-webkit-keyframes dropdown-menu {
+    0%   {left:0px; top:70px; opacity:0}
+}
+
+/* Standard syntax */
+@keyframes dropdown-menu {
+    0%   {left:0px; top:70px; opacity:0}
+}
