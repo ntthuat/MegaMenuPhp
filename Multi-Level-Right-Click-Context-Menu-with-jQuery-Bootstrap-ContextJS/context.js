@@ -19,7 +19,7 @@ var context = context || (function () {
 	function initialize(opts) {
 		
 		options = $.extend({}, options, opts);
-		
+
 		$(document).on('click', 'html', function () {
 			$('.dropdown-context').fadeOut(options.fadeSpeed, function(){
 				$('.dropdown-context').css({display:''}).find('.drop-left').removeClass('drop-left');
